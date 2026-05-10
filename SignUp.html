@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home Automation SMS Alerts</title>
+  <title>Bruce Jones Home Automation SMS Alerts</title>
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -134,16 +134,20 @@
 </head>
 <body>
   <div class="container">
-    <h1>Home Automation SMS Alerts</h1>
+    <h1>Bruce Jones Home Automation SMS Alerts</h1>
 
     <p>
-      Register to receive SMS notifications related to environmental and
-      security events detected by the residential home automation system.
+      Sign up to receive automated SMS notifications from Bruce Jones for
+      environmental, security, and household events detected by a private
+      residential home automation system.
     </p>
 
     <div class="notice">
-      Examples of alerts include water leak detection, smoke/co alarms,
-      temperature warnings, door activity, and pet-related notifications.
+      By submitting this form, you are requesting to receive Bruce Jones Home
+      Automation SMS Alerts. Examples include water leak detection, smoke/CO
+      alarms, temperature warnings, door activity, and pet-related notifications.
+      Message frequency varies based on household events. Message and data rates
+      may apply. Reply STOP to unsubscribe or HELP for assistance.
     </div>
 
     <form id="signup-form">
@@ -159,10 +163,10 @@
       <div class="checkbox">
         <input type="checkbox" id="consent" name="consent" required />
         <label for="consent" class="fineprint">
-          I consent to receive automated SMS notifications from the Home
-          Automation Alert Service. Message frequency varies based on household
-          events. Message and data rates may apply. Reply STOP to unsubscribe
-          or HELP for assistance.
+          I consent to receive automated SMS notifications from Bruce Jones Home
+          Automation Alerts at the mobile number provided. Message frequency
+          varies based on household events. Message and data rates may apply.
+          Reply STOP to unsubscribe or HELP for assistance.
         </label>
       </div>
 
@@ -210,7 +214,7 @@
         phone: document.getElementById('phone').value.trim(),
         email: document.getElementById('email').value.trim(),
         consent: document.getElementById('consent').checked ? 'yes' : 'no',
-        consentText: 'I consent to receive automated SMS notifications from the Home Automation Alert Service. Message frequency varies based on household events. Message and data rates may apply. Reply STOP to unsubscribe or HELP for assistance.',
+        consentText: 'I consent to receive automated SMS notifications from Bruce Jones Home Automation Alerts at the mobile number provided. Message frequency varies based on household events. Message and data rates may apply. Reply STOP to unsubscribe or HELP for assistance.',
         pageUrl: window.location.href,
         submittedAtClient: new Date().toISOString()
       };
