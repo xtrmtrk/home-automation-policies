@@ -166,7 +166,10 @@
           I consent to receive automated SMS notifications from Bruce Jones Home
           Automation Alerts at the mobile number provided. Message frequency
           varies based on household events. Message and data rates may apply.
-          Reply STOP to unsubscribe or HELP for assistance.
+          Reply STOP to unsubscribe or HELP for assistance. By checking this
+          box and submitting this form, I also agree to the
+          <a href="privacy.html">Privacy Policy</a> and
+          <a href="terms.html">Terms &amp; Conditions</a>.
         </label>
       </div>
 
@@ -214,7 +217,7 @@
         phone: document.getElementById('phone').value.trim(),
         email: document.getElementById('email').value.trim(),
         consent: document.getElementById('consent').checked ? 'yes' : 'no',
-        consentText: 'I consent to receive automated SMS notifications from Bruce Jones Home Automation Alerts at the mobile number provided. Message frequency varies based on household events. Message and data rates may apply. Reply STOP to unsubscribe or HELP for assistance.',
+        consentText: 'I consent to receive automated SMS notifications from Bruce Jones Home Automation Alerts at the mobile number provided. Message frequency varies based on household events. Message and data rates may apply. Reply STOP to unsubscribe or HELP for assistance. By checking this box and submitting this form, I also agree to the Privacy Policy and Terms & Conditions.',
         pageUrl: window.location.href,
         submittedAtClient: new Date().toISOString()
       };
